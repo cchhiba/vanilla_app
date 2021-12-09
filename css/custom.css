@@ -1,0 +1,182 @@
+
+
+/* css custom starts */
+  div {
+    border: 1px solid black;
+    font-family: 'Gaegu', cursive;
+
+  }
+.moblie-container {
+  height: 100vh;
+  border: 1px solid pink;
+
+}
+/* start of nav bar */
+  .mobile-nav {
+    background-color: green;
+    height: 50px;
+    text-align: center;
+    background-image: url("../img/paper-fibers.png");
+    background-repeat: repeat;
+  }
+
+  .burger-menu,
+  .logo,
+  .search {
+    height: 67%;
+    width: 20.1%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 1rem;
+    font-size: 1.4rem;
+  }
+
+  .logo {
+    width: 57.5%;
+
+  }
+
+  .search {
+    width: 20.75%;
+  }
+/* end of nav bar */
+/* start of daily section */
+
+  .daily-section {
+    background-color: blue;
+    height: 120px;
+    height: 30vh;
+    background-image: url("../img/paper-fibers.png");
+    background-repeat: repeat;
+  }
+  .current-city {
+    text-transform: uppercase;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    margin-left: 13px;
+    font-size: 1.5rem;
+  }
+  .weather-img,
+  .weather-info {
+    float: left;
+    width: 45.4%;
+    height: 70%;
+    border: none;
+  }
+.weather-img {
+  font-size: 8rem;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+/* celsius symbol */
+.wi-celsius {
+  font-size: 2rem;
+}
+.weather-temps{
+  font-size: 1.4rem;
+}
+/* end of daily section */
+  .map-section {
+    background-color: yellow;
+    height: 20vh;
+    margin: 15px;
+  }
+.map {
+    height: 78%;
+    background-color: purple;
+}
+.map-live {
+  -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+     -o-filter: grayscale(100%);
+        filter: grayscale(100%);
+}
+.map-title {
+  width: 80%;
+  float: left;
+  height: 20%
+}
+.expand {
+  width: 18.8%;
+  float: right;
+  height: 20%;
+}
+  .favourite-section {
+    background-color: red;
+    height: 20vh;
+    padding: 5px;
+    margin: 14px;
+  }
+
+  .footer-section {
+    background-color: pink;
+    height: 120px;
+  }
+  .left-section,
+  .middle-section,
+  .right-section {
+    display: inline-block;
+    height: 14.4vh;
+    width: 14.6vh;
+  }
+
+/* media queries - this will be read last and will over-ride any information above which is exactly what you need*/
+
+/* Extra small devices (phones, 600px and down) */
+/* This applies css to the max width of 600px for mobile phones */
+@media only screen and (max-width: 600px) {
+.daily-section {
+  background-color: green;
+  background-image: none;
+}
+.current-city {
+  text-align: center;
+  }
+  .weather-img {
+    font-size: 6rem;
+    padding-left: 3rem;
+    padding-top: 1rem;
+  }
+.weather-info {
+    width: 20%;
+    height: 30%;
+  }
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+.daily-section {
+  background-color: blue;
+  background-image: none;
+  }
+.current-city {
+  margin-left: 13rem;
+  font-size: 3rem;
+  }
+.weather-img{
+  padding-left: 15rem;
+  padding-top: 1rem;
+  }
+  .weather-img,
+  .weather-info {
+    width: 20%;
+  }
+  .weather-img {
+    font-size: 8rem;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */
